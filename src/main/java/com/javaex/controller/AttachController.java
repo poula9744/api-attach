@@ -20,7 +20,7 @@ public class AttachController {
 	
 	@PostMapping(value = "")
 	public JsonResult upload(@RequestParam MultipartFile file) {
-		System.out.println("AttachController.upload()");
+		System.out.println("AttachController.uploadd()");
 		
 		String saveName = attachService.exeUpload(file);
 
